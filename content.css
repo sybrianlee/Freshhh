@@ -1,0 +1,59 @@
+[id^="post_"] {
+	margin-bottom: 1.5em;
+}
+
+.post_tab {
+	display: inline-block;
+	height: 2em;
+	margin-bottom: 0.8em;
+	cursor: pointer;
+}
+
+.post_tab > * {
+	vertical-align: middle;
+}
+
+.icon-closed {
+	width: 2em;
+    height: 100%;
+	display: inline-block;
+    background-image: url(./images/closeddd.png);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.icon-opened {
+    width: 2em;
+    height: 100%;
+	display: inline-block;
+    background-image: url(./images/opennn.png);
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.post_title {
+	height, line-height: 100%;
+	color: #B16F4B;
+	font-size: 1.4em;
+	font-weight: bold;
+	display: inline-block;
+	margin: 0em;
+}
+
+/* link & music */
+.post_content {
+	margin-left: 2.3em;
+}
+
+.post_content a, .post_content p {
+	color: #C19265;
+}
+
+.post_content p {
+	font-style: italic;
+}
+
+/* accordion */
+.accordion .ui-state-focus {
+	outline: none;
+}

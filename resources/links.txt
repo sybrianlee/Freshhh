@@ -1,0 +1,40 @@
+YOUTUBE
+	https://www.youtube.com/watch?v=JCNzOQ2Ok8s
+	https://www.youtube.com/watch?v=6uzBHhPEWpE&feature=youtu.be
+	https://www.youtube.com/attribution_link?a=FhNjuAgbVJs&amp;u=%2Fwatch%3Fv%3D82wY2x2jIzY%26feature%3Dshare
+	https://youtu.be/yaWesK-nWts
+	http://youtu.be/NWTocA7RXfY?t=1h45m46s
+
+	https://www.youtube.com/embed/6uzBHhPEWpE
+
+
+
+ITUNES
+	https://itunes.apple.com/us/post/idsa.77834273-10fd-11e6-9d27-c009a741c62d
+	https://itunes.apple.com/us/album/groovy-tony-single/id1099296165
+	https://itunes.apple.com/us/album/one-dance-feat.-wizkid-kyla/id1099259567?app=itunes
+	https://itun.es/us/L2EHbb
+
+	https://embed.itunes.apple.com/us/embedded-player/idsa.77834273-10fd-11e6-9d27-c009a741c62d
+	https://widgets.itunes.apple.com/widget.html?c=us&brc=0F2C37&blc=0F2C37&trc=0F2C37&tlc=0F2C37&m=music&e=album&w=250&h=300&ids=1094490022&wt=discovery
+
+
+
+SOUNDCLOUD
+	https://soundcloud.com/topdawgent/kendrick-lamar-black-friday
+
+	http://soundcloud.com/oembed?format=json&url=https://soundcloud.com/topdawgent/kendrick-lamar-black-friday
+
+
+
+AUDIOMACK
+	http://www.audiomack.com/song/rapxclusive/smuckers-1
+
+	http://www.audiomack.com/embed4-large/rapxclusive/smuckers-1
+
+
+
+AUDIOJAMS
+	http://audiojams.net/index.php?a=track&id=31
+
+	http://audiojams.net/embed.php?id=31

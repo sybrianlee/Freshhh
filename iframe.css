@@ -1,0 +1,35 @@
+/*soundcloud*/
+.iframe_soundcloud {
+	height: 10.5em;
+	width: 57%;
+}
+
+/*youtube, itunes video*/
+.iframe_youtube, .iframe_itunes_video {
+	height: 27em;
+	width: 41%;
+}
+
+/*audiomack*/
+.iframe_audiomack {
+	height: 15em;
+	width: 50%;
+}
+
+/*audiojams*/
+.iframe_audiojams {
+	height: 7em;
+	width: 50%;
+}
+
+/*itunes*/
+.iframe_itunes {
+	height: 20em;
+	width: 60%;
+}
+
+iframe {
+	position: relative;
+	height: 100%;
+	width: 100%;
+}

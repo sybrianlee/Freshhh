@@ -1,0 +1,5 @@
+accordion style
+title too long
+fill whitespace (comments?)
+overall style - color, font, etc
+youtube - it is restricted from playback on certain sites (wait until hosted)

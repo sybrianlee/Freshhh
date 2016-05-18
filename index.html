@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>FRESHHH</title>
+		<link rel="shortcut icon" type="image/ico" href="favicon.ico"/>
+		<link rel="stylesheet" type="text/css" href="style.css">
+		<link rel="stylesheet" type="text/css" href="content.css">
+		<link rel="stylesheet" type="text/css" href="iframe.css">
+		<script type="text/javascript" src="./js/url.js"></script>
+		<script type="text/javascript" src="./js/music.js"></script>
+		<script type="text/javascript" src="./js/reddit.js"></script>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/2.2.0/jquery.min.js"></script>
+		<script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.11.4/jquery-ui.min.js"></script>
+		<script src="https://connect.soundcloud.com/sdk/sdk-3.0.0.js"></script>
+	</head>
+
+	<body>
+		<div class="header">
+			<p id="header-top">FRESHHH</p>
+			<p id="header-bottom">Gathering the [FRESH] links from <a href="https://www.reddit.com/r/hiphopheads/" target='_blank'>/r/hiphopheads</a></p>
+			<div id="search_filter">
+				<select id="time_filter">
+					<option value="hour">Hour</option>
+					<option value="day" selected="selected">Day</option>
+					<option value="week">Week</option>
+					<option value="month">Month</option>
+					<option value="year">Year</option>
+					<option value="all">All Time</option>
+				</select>
+				<button id="filter_button" onclick="reload()">Search</button>
+			</div>
+		</div>
+		<div class="content"></div>
+		<script>load("day");</script>
+	</body>
+<html>
