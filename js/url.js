@@ -1,20 +1,8 @@
-function getSoundCloudURL(url, callback) {
-	getSoundCloudTrackID(url, function(id) {
-		if (id === "error") {
-			callback("http://soundcloud.com/oembed?format=json&url=" + url.href);
-		} else {
-			callback("https://w.soundcloud.com/player/?url=https://api.soundcloud.com/tracks/" + id);
-		}
-	});
-}
-
-function getSoundCloudTrackID(url, callback) {
-	var apiURL = "https://api.soundcloud.com/resolve.json?url=" + url.href + "&client_id=ee40355e6f19ec9efa491f75e9d88691";
-	$.getJSON(apiURL, function(result) {
-		callback(result.id);
-	}).fail(function() {
-		callback("error");
-	});
+function getSoundCloudURL(url) {
+	if (url.hostname === "m.soundcloud.com") {
+		url.hostname = "soundcloud.com";
+	}
+	return "https://w.soundcloud.com/player/?url=" + url.href;
 }
 
 function getYouTubeURL(url) {
@@ -48,9 +36,9 @@ function getItunesURL(url, callback) {
 			callback("https://widgets.itunes.apple.com/widget.html?c=us&brc=0F2C37&blc=0F2C37&trc=0F2C37&tlc=0F2C37&m=music&e=album&w=325&h=300&ids=" + id + "&wt=discovery");
 		});
 	} else {
-		if (url.pathname.includes("post")) {
+		if (url.pathname.includes("/post/")) {
 			newURL = url.href.replace("https://itunes.apple.com/us/post/", "https://embed.itunes.apple.com/us/embedded-player/");
-		} else if (url.pathname.includes("album")) {
+		} else if (url.pathname.includes("/album/")) {
 			var id = url.pathname.split("/")[4].substring(2);
 			newURL = "https://widgets.itunes.apple.com/widget.html?c=us&brc=0F2C37&blc=0F2C37&trc=0F2C37&tlc=0F2C37&m=music&e=album&w=325&h=300&ids=" + id + "&wt=discovery";
 		}
