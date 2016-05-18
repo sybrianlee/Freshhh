@@ -4,10 +4,10 @@
 	width: 57%;
 }
 
-/*youtube, itunes video*/
-.iframe_youtube, .iframe_itunes_video {
-	height: 27em;
-	width: 41%;
+/*soundcloud albums*/
+.iframe_soundcloud_sets {
+	height: 19.5em;
+	width: 57%;
 }
 
 /*audiomack*/
@@ -19,7 +19,19 @@
 /*audiojams*/
 .iframe_audiojams {
 	height: 7em;
-	width: 50%;
+	width: 45%;
+}
+
+/*youtube*/
+.iframe_youtube {
+	height: 22em;
+	width: 34%;
+}
+
+/*itunes song*/
+.iframe_itunes_post {
+	height: 6.5em;
+	width: 40%;
 }
 
 /*itunes*/

@@ -41,6 +41,9 @@ function load(scope) {
 			}
 			i++;
 		}
+		if (count === 0) {
+			$(".content").append("<p>No [FRESH] Tracks Found</p>");
+		}
 		accordion();
 	});
 }
@@ -54,7 +57,11 @@ function reload() {
 
 function getIframeClass(domain, pathname) {
 	if (domain.includes("soundcloud")) {
-		return "iframe_soundcloud";
+		if (pathname.includes("/sets/")) {
+			return "iframe_soundcloud_sets";
+		} else {
+			return "iframe_soundcloud";
+		}
 	} else if (domain.includes("audiomack")) {
 		return "iframe_audiomack";
 	} else if (domain.includes("youtube") || domain.includes("youtu.be")) {
@@ -63,7 +70,7 @@ function getIframeClass(domain, pathname) {
 		return "iframe_audiojams";
 	} else if (domain.includes("itunes") || domain.includes("itun.es")) {
 		if (pathname.includes("/post/")) {
-			return "iframe_itunes_video";
+			return "iframe_itunes_post";
 		} else {
 			return "iframe_itunes";
 		}

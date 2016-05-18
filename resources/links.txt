@@ -21,9 +21,13 @@ ITUNES
 
 
 SOUNDCLOUD
-	https://soundcloud.com/topdawgent/kendrick-lamar-black-friday
+	https://soundcloud.com/erykah-she-ill-badu/come-and-see-badu-the-official-badu-party-remix
+	https://soundcloud.com/squaaashclub/goldlink-celebration-freestyle-prod-by-kaytranada
+	https://soundcloud.com/goodworkcharlie/sets/charlie-heat-versiontill-june
 
 	http://soundcloud.com/oembed?format=json&url=https://soundcloud.com/topdawgent/kendrick-lamar-black-friday
+	https://w.soundcloud.com/player/?url=https://api.soundcloud.com/tracks/264514399
+	https://w.soundcloud.com/player/?url=https://soundcloud.com/erykah-she-ill-badu/come-and-see-badu-the-official-badu-party-remix
 
 
 

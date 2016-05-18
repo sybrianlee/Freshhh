@@ -1,3 +1,10 @@
+.content > p {
+	font-size: 1.5em;
+	color: #B16F4B;
+	font-weight: bold;
+	font-style: italic;
+}
+
 [id^="post_"] {
 	margin-bottom: 1.5em;
 }
